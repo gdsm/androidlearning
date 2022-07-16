@@ -1,9 +1,11 @@
-package com.neural.androidlearning
+package com.neural.androidlearning.userInterface.activities
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import com.neural.androidlearning.userInterface.activities.BaseActivity
+import com.neural.androidlearning.R
+import com.neural.androidlearning.TopicsActivity
+import com.neural.kmmlearning.HelloKMM
 
 class MainActivity : BaseActivity("MainActivity") {
     private var btnStart: Button? = null
@@ -17,6 +19,8 @@ class MainActivity : BaseActivity("MainActivity") {
             println("Lets Start learning android !!")
             showList()
         }
+
+        println("------ ${HelloKMM().hello("Hello from android native")}")
     }
 
     private fun showList() {

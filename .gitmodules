@@ -1,0 +1,3 @@
+[submodule "kmmLearning"]
+	path = kmmLearning
+	url = https://github.com/gdsm/kmmLearning
