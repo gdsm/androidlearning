@@ -36,7 +36,7 @@
             android:name=".TopicsActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".userInterface.activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

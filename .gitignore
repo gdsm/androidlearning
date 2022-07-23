@@ -1,15 +1,31 @@
-*.iml
+# Generated Files
+bin/
+gen/
+
+# Gradle Files
 .gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
 /build
+
+# Local Configurations
+/local.properties
+
+# ProGuard
+proguard/
+
+*.settings/
+
+.idea
+.DS_Store
+*.iml
+.gitattributes
+
+
 /captures
 .externalNativeBuild
 .cxx
 local.properties
+
+# Green Dao
+**/generated/*Dao.java
+DaoMaster.java
+DaoSession.java

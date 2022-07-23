@@ -1,16 +1,23 @@
 pluginManagement {
     repositories {
         gradlePluginPortal()
-        google()
         mavenCentral()
+        google()
     }
 }
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
+//dependencyResolutionManagement {
+//    repositories {
+//        google()
+//        mavenCentral()
+//        gradlePluginPortal()
+//        jcenter()
+//    }
+//}
+//includeBuild("kmmLearning") {
+//    dependencySubstitution {
+//        substitute(module("com.neural:kmmLearning")).with(project(":"))
+//    }
+//}
 rootProject.name = "androidlearning"
 include ':app'
+include ':kmmLearning'
